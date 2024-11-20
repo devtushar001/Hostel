@@ -1,0 +1,113 @@
+.item {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.room-details {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: hidden;
+}
+
+.room-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.room-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.room-info p {
+  flex: 1;
+  font-size: 1rem;
+  color: #555;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #222;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+}
+
+.amenities-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.amenities-list li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.room-photos {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  overflow-x: auto;
+}
+
+.room-photos .photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.room-photos .photo:hover {
+  transform: scale(1.1);
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.booking-policy-section,
+.checkin-section {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-policy-section p,
+.checkin-section p {
+  margin: 0;
+  color: #444;
+  font-size: 1rem;
+}
+
+.room-info p strong {
+  color: #333;
+}
+
+.amenities-section h3,
+.description-section h3,
+.bathroom-section h3,
+.view-section h3,
+.location-section h3,
+.photos-section h3,
+.reviews-section h3 {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.reviews-section p {
+  font-size: 1.1rem;
+  color: #333;
+}
